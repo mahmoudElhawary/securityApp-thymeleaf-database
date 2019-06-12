@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>home page</title>
+<link rel="stylesheet" href="/css/home.css" />
+</head>
+<body>
+	<div th:text="#{english.hello}">
+		<h1>hello ..... this is home page</h1>
+	 </div>
+	 <a th:href="@{/?lang=en}">english</a>||<a th:href="@{/?lang=AR}">العربية</a>
+	<br>
+	<a th:href="@{/admin}">sign in as admin</a> <br>
+	<a th:href="@{/dba}">sign in as dba</a><br>
+	<a th:href="@{/user}">sign in as user</a><br>
+</body>
+</html>

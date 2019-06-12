@@ -1,0 +1,60 @@
+html{
+	text-align: center;
+	font-size: 40px ;
+	text-transform: capitalize;
+	margin: 0 px ;
+	padding:0px ;
+	background-color: graytext;
+}
+.table{
+	border: 1px solid;
+	background-color: buttonface;
+	text-align: center;
+	left:10% ;
+	width: 80% ;
+}
+div{
+	margin: 20 px ;
+	padding: 15px ;
+	background-color: lime;
+	margin-bottom: 20px ;
+}
+.myform{
+	color: purple;
+	font-size: 20px ;
+	border-radius: 5px ;
+	background-color: silver;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 10px ;
+	padding: 10px ;
+}
+.b1{
+	text-align: right;
+	position: fixed;
+	right: 20px ;
+}
+.b2{
+	text-align: right;
+	position: fixed;
+	right: 100px ;
+	width: 50px ;
+}
+.input1{
+	widows: 260px ;
+	height: 22px ;
+	border-radius: 5px ;
+	background-color: buttonface; 
+	color: green;
+	margin: 10px ;
+	padding: 10px ;
+}
+.input2{
+	widows: 360px ;
+	height: 42px ;
+	border-radius: 5px ;
+	background-color: buttonface; 
+	font-size:25px  ;
+	color:red ;
+}
